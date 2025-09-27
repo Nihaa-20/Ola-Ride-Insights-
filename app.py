@@ -303,7 +303,7 @@ with tabs[1]:
 with tabs[2]:
     st.header("📊 Interactive Dashboard")
     st.markdown("Embed your Power BI report below:")
-    power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiODYxYWU0M2QtNzUwMy00NjE5LTkzNmMtZTQzMzljMGExZGJlIiwidCI6IjQyOTUwMzI1LWZiOTgtNDQ0Zi1hZjQxLTY3YzE1NTYwNDkxOSJ9"
+    power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiZjk4MTRmN2UtNjlkOC00ZmVkLThmOWEtZjQzNWE5MzQzNWQ1IiwidCI6IjQyOTUwMzI1LWZiOTgtNDQ0Zi1hZjQxLTY3YzE1NTYwNDkxOSJ9"
     st.components.v1.iframe(power_bi_url, width=1500, height=800)
 
 # =================== ABOUT PAGE ===================
@@ -336,4 +336,5 @@ with tabs[3]:
         </div>
         """,
         height=600,
+
     )

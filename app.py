@@ -54,6 +54,7 @@ st.markdown(
     gap: 20px;                  /* small gap between cards */
     flex-wrap: wrap;            /* wrap on small screens */
     margin-bottom: 30px; 
+    color:black;
     }
 
     .card {
@@ -65,6 +66,7 @@ st.markdown(
         box-shadow: 2px 4px 12px rgba(0,0,0,0.15);
         text-align: center;
         margin-bottom: 30px;
+        color:black;
     }
 
     .card h2, .card h3, .card h4 {
@@ -77,13 +79,14 @@ st.markdown(
         font-size: 25px;
         text-align: center;
         line-height: 2 !important;
+        color:black;
     }
 
     .card p { 
         font-size: 22px; 
         padding: 0 !important;
         margin: 0 !important; 
-        color: #444; 
+        color:black;
         text-align: center;
         line-height: 2 !important;
     }
@@ -93,6 +96,7 @@ st.markdown(
         width: 100%; 
         border-collapse: collapse; 
         text-align: left; 
+        color:black;
     }
     .vehicle-table th { 
         background-color: #fafcfb; 
@@ -113,6 +117,7 @@ st.markdown(
         border-collapse: collapse;
         width: 100%;
         font-size: 22px; /* slightly smaller text */
+        color:black;
     }
     .vehicle-table th, .vehicle-table td {
         border: 2px solid #ccc;
@@ -159,7 +164,7 @@ with tabs[0]:
     # ---------------- Quick Overview ----------------
     st.markdown(
         """
-        <h2 style='text-align:center;'>Quick Overview </h2>
+        <h2 style=text-align:center;color:black;>Quick Overview </h2>
         <div class="card-row">
             <div class="card"><h2>63967</h2><p>Total Rides</p></div>
             <div class="card"><h2>35080467</h2><p>Total Revenue</p></div>
@@ -172,7 +177,7 @@ with tabs[0]:
     # ---------------- Payment Methods ----------------
     st.markdown(
         """
-        <h2 style='text-align:center;'>Payment Methods </h2>
+        <h2 style=text-align:center;color:black;>Payment Methods </h2>
         <div class="card-row">
             <div class="card">
                 <p><strong>Cash:</strong> 1088</p>
@@ -188,7 +193,7 @@ with tabs[0]:
     # ================== Vehicle Details Table ==================
     st.markdown(
         """
-        <h2 style='text-align:center;'>Vehicles – Bookings & Ratings </h2>
+        <h2 style=text-align:center;color:black;>Vehicles – Bookings & Ratings </h2>
         <div style="overflow-x:auto;">
         <table class="vehicle-table">
             <tr>
@@ -336,5 +341,4 @@ with tabs[3]:
         </div>
         """,
         height=600,
-
     )
